@@ -4,13 +4,14 @@ import H3Styled from '../Styled/H3Styled';
 import PStyled from '../Styled/PStyled';
 const Education = props =>(
     <div className="Education">
-        <H2Styled name="Education"></H2Styled>
+        <H2Styled name="Work Experience"></H2Styled>
         <div className="Education-container">
             {props.data.map((edu,index) => (
                 <div className="Education-item" key={'Edu-${index}'}>
-                        <H3Styled>{edu.degree} {edu.institution}
-                            <span>{edu.startDate}-{edu.endDate}</span>
+                        <H3Styled>{edu.degree} 
                         </H3Styled>
+                        {edu.institution}
+                        <span>| {edu.startDate} - {edu.endDate}</span>
                         <PStyled name={edu.description}></PStyled>
                 </div>
             ))}
