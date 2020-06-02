@@ -37,8 +37,6 @@ const App = () => {
             </Sidebar>
             <Info>
                 <Education data ={data.education}/>
-                {/* <Experience data = {data.experience}/> */}
-                {/* <Certificates data = {data.certificate} /> */}
                 <Skills data = {data.skills}/>
             </Info>
         </Main>
