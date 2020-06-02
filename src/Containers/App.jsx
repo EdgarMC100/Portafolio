@@ -6,8 +6,8 @@ import Sidebar from '../Components/Sidebar';
 import Info from '../Components/Info';
 import About from '../Components/About';
 import Education from '../Components/Education';
-import Experience from '../Components/Experience';
-import Certificates from '../Components/Certificates';
+// import Experience from '../Components/Experience';
+// import Certificates from '../Components/Certificates';
 import Skills from '../Components/Skills';
 import useGetData from '../Hooks/useGetData';
 

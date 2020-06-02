@@ -52,7 +52,7 @@ const SkillsSpan= styled.span`
 `;
 
 const Skills = props => (
-    <div className="Skills">
+    <div className="Skills">    
         <SkillsContainer>
             {props.data.map((skill,item)=>(
                 <div className="Skills-item" key={'Ski-${index}'}>
