@@ -20,7 +20,7 @@ module.exports = {
             {   //Regla para identificar archivos js y jsx
 
                 test: /\.(js|jsx)$/, 
-                exclude: /node_modules/,
+                exclude: /node_modules/, //excluding js jsx in node_modules
                 use:{ //uso del loader
                     loader: "babel-loader",
                 }

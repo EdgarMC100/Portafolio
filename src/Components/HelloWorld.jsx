@@ -1,7 +1,7 @@
  import React , {Component, useState} from 'react';
 
 //1st Way
-//  class Helloworld extends Component{
+//  class Helloworld extends Component{ 
 //     state = { //añadiendo estado inicial activo
 //         active:true,
 //     }
