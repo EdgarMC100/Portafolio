@@ -5,7 +5,8 @@ const StyledH2 = styled.h2`
   font-family: "Roboto, san-serif";
   font-weight: 300;
   letter-spacing: 0.8px;
-  margin: 1em 0 1em 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #c2185b;
   text-align: center;
 `;
