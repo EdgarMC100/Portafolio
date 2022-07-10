@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-    - '9'
+  - "16.16.0"
 
 git:
-    depth: 3
+  depth: 3
 script:
-    - yarn build
+  - yarn build
 deploy:
-    provider: pages
-    skip-cleanup: true
-    keep-history: true
-    github-token: $GITHUB_KEY
-    local-dir: dist/
-    target-branch: master
-    commit_message: "Deploy release ${TRAVIS_TAG}"
-    on:
-        branch: develop
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_KEY
+  local-dir: dist/
+  target-branch: master
+  commit_message: "Deploy release ${TRAVIS_TAG}"
+  on:
+    branch: develop
