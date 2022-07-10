@@ -7,7 +7,7 @@ const StyledH2 = styled.h2`
   letter-spacing: 0.8px;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #c2185b;
+  color: green;
   text-align: center;
 `;
 
